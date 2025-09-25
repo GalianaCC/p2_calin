@@ -9,9 +9,10 @@ void calin(float posx, float posy) {
   //cuerpo
   //Torso central
   rect(50, 135, 100, 80);
+  
   //Brazos
-  rect(10, 135, 20, 40);
-  rect(90, 135, 20, 40);
+  rect(10, 150, 20, 47);
+  rect(90, 150, 20, 47);
 
 
   // Ojos
@@ -32,6 +33,7 @@ void calin(float posx, float posy) {
   // Boca
   stroke(1);
   arc(50, 70, 20, 25, 0, PI, PIE);
+  
   // Nariz
   stroke(1);
   line(48, 55, 48, 65);
@@ -40,4 +42,3 @@ void calin(float posx, float posy) {
   line(50, 65, 50, 65);
   pop();
 }
-
