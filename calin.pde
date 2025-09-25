@@ -9,6 +9,7 @@ void calin(float posx,float posy) {
   //cuerpo
   //Torso central
   rect(50, 135, 100, 80);
+  pop();
     //Brazos
   rect(0, 135, 20, 40);
   rect(80, 135, 20, 40);
@@ -22,9 +23,24 @@ void calin(float posx,float posy) {
   ellipse(63, 55, 7, 7);
   
   // ---- Pelo ----
-noFill();
-triangle(30, 36, 38, 36, 45, 25);
-pop();
+triangle(31, 37, 40, 37, 37, 43);
+triangle(33, 37, 40, 37, 37, 43);
+triangle(40, 37, 45, 37, 45, 43);
+triangle(40, 37, 50, 37, 45, 43);
+triangle(50, 37, 60, 37, 55, 43);
+triangle(60, 37, 69, 37, 65, 43);
+
+// Boca
+stroke(1);
+  arc(width/2, 70, 20, 25, 0, PI, PIE);
+  // Nariz
+  stroke(1);
+  line(48, 55, 48, 65);
+  line(52, 55, 52, 65);
+  line(48, 65, 50, 65);
+  line(50, 65, 50, 65);
 }
+
+
 
 
