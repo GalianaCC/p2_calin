@@ -9,7 +9,6 @@ void calin(float posx,float posy) {
   //cuerpo
   //Torso central
   rect(50, 135, 100, 80);
-  pop();
     //Brazos
   rect(0, 135, 20, 40);
   rect(80, 135, 20, 40);
@@ -27,4 +26,5 @@ noFill();
 triangle(30, 36, 38, 36, 45, 25);
 pop();
 }
+
 
