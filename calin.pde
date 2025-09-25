@@ -25,4 +25,6 @@ void calin(float posx,float posy) {
   // ---- Pelo ----
 noFill();
 triangle(30, 36, 38, 36, 45, 25);
+pop();
 }
+
